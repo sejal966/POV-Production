@@ -2785,6 +2785,544 @@ body{
 
   }
 
+ .moreReach{
+    padding-top: 5rem;
+    /* padding-bottom: 2rem; */
+    /* font-family: "Anton", sans-serif; */
+    background-color: #000;
+    margin-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+   
+    
+   
+  }
+  /* .content{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  .reachHeading{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    /* letter-spacing: 1rem; */
+    padding-bottom: 4rem;
+    font-weight: 400;
+    font-family: "EB Garamond", sans-serif;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    
+  }
+
+  .wrap{
+    max-width: 1200px;
+   
+    width: 100%;
+    position: relative;
+    
+    
+    
+  }
+  .wrap .carousel{
+    
+    display: grid;
+    /* margin-bottom: 10px; */
+    gap: 18px;
+    font-size: 0;
+    scrollbar-width: none;
+    grid-template-columns: repeat(8, 1fr);
+    overflow-x: auto;
+    
+  }
+  .wrap .carousel::-webkit-scrollbar{
+    display: none;
+  }
+
+  .slide-button{
+    position: absolute;
+    top: 50%;
+    
+    height: 40px;
+    width: 40px;
+    color: #000;
+    border: none;
+    outline: none;
+    background: #fff;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
+
+  #prev-slide{
+    /* position: absolute; */
+    left: -45px;
+    display: none;
+    /* transform: translateY(400%); */
+  }
+  #next-slide{
+    right: -45px;
+    /* transform: translateY(-600%); */
+  }
+
+  .slide-button:hover{
+    background: rgb(186, 182, 182);
+  }
+    
+   .carousel img{
+    height: 400px;
+    object-fit: cover;
+    width: 400px;
+    /* width: calc(100%/3); */
+  }
+
+ 
+
+
+  .gargClasses{
+    position: relative;
+  }
+  .gargClasses1{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    opacity: 0;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+  }
+  .gargClasses1:hover{
+    opacity: 1;
+    /* transform: scale(1); */
+  }
+
+  /* .gargClasses1:hover .gargClasses img{
+    opacity: 0;
+  } */
+  
+
+  .bhautiki-1{
+    position: relative;
+  }
+  .bhautiki-1-1{
+    position: absolute;
+   
+    left: 0;
+    opacity: 0;
+    top: -20px;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+  }
+  .bhautiki-1-1:hover{
+    opacity: 1;
+    /* transform: scale(1); */
+  }
+
+  .bhautiki-2{
+    position: relative;
+  }
+  .bhautiki-2-1{
+    position: absolute;
+   
+    left: 0;
+    opacity: 0;
+    top: -20px;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+  }
+  .bhautiki-2-1:hover{
+    opacity: 1;
+    /* transform: scale(1); */
+  }
+
+  .bhautiki-3{
+    position: relative;
+  }
+  .bhautiki-3-1{
+    position: absolute;
+   
+    left: 0;
+    opacity: 0;
+    top: -40px;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+  }
+  .bhautiki-3-1:hover{
+    opacity: 1;
+    /* transform: scale(1); */
+  }
+  .cvalleyIndia{
+    position: relative;
+  }
+  .cvalley1{
+    position: absolute;
+   
+    left: 0;
+    opacity: 0;
+    top: -20px;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+  }
+  .cvalley1:hover{
+    opacity: 1;
+  }
+  .gwaliorDiaries-1{
+    position: relative;
+  }
+  .gwaliorDiaries-1-1{
+    position: absolute;
+   
+    left: 0;
+    opacity: 0;
+    top: -30px;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+  }
+  .gwaliorDiaries-1-1:hover{
+    opacity: 1;
+  }
+
+  .gwaliorDiaries-2{
+    position: relative;
+  }
+  .gwaliorDiaries-2-1{
+    position: absolute;
+   
+    left: 0;
+    opacity: 0;
+    top: -30px;
+    transform: scale(1.01);
+    transition: all 0.5s ease;
+  }
+  .gwaliorDiaries-2-1:hover{
+    opacity: 1;
+  }
+
+  .chemistryWorld{
+    position: relative;
+  }
+  .chemistryWorld1{
+    position: absolute;
+   
+    left: 0;
+    opacity: 0;
+    top: -40px;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+  }
+  .chemistryWorld1:hover{
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 900px) {
+    .carousel img{
+      height: 500px;
+      object-fit: cover;
+      width: 500px;
+      /* width: calc(100%/3); */
+    }
+  }
+  @media  (max-width:631px){
+    .reachHeading{
+      font-size: 48px;
+      width: 100%;
+     
+      margin: auto;
+      text-align: center;
+    }
+  }
+  @media  (max-width:621px){
+    
+    .moreReach{
+      margin-top: -2rem;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .carousel img{
+      height: 300px;
+      object-fit: cover;
+      width: 300px;
+      /* width: calc(100%/3); */
+    }
+  }
+  @media screen and (max-width: 500px) {
+   
+    .moreReach{
+      margin-top: -3rem;
+    }
+  }
+
+ 
+  @media screen and (max-width: 450px) {
+    .carousel img{
+      height: 350px;
+      object-fit: cover;
+      width: 350px;
+      /* width: calc(100%/3); */
+    }
+    .gargClasses1{
+      position: absolute;
+      top: -10px;
+      left: 0;
+      opacity: 0;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .bhautiki-1-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -5px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .bhautiki-2-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -10px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .bhautiki-3-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -20px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .cvalley1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -15px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .gwaliorDiaries-1-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -15px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .gwaliorDiaries-2-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -10px;
+      transform: scale(1.01);
+      transition: all 0.5s ease;
+    }
+    .chemistryWorld1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -20px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+  }
+  @media  (max-width:426px){
+    .reachHeading{
+      font-size: 40px;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  @media  (max-width:400px){
+    
+    .reachHeading{
+      font-size: 40px;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+    }
+   
+    .moreReach{
+      margin-top: -4rem;
+    }
+  }
+   
+  @media screen and (max-width: 380px) {
+    .carousel img{
+      height: 250px;
+      object-fit: cover;
+      width: 250px;
+      /* width: calc(100%/3); */
+    }
+    .gargClasses1{
+      position: absolute;
+      top: -10px;
+      left: 0;
+      opacity: 0;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .bhautiki-1-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -5px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .bhautiki-2-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -10px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .bhautiki-3-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -20px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .cvalley1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -15px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .gwaliorDiaries-1-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -15px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .gwaliorDiaries-2-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -10px;
+      transform: scale(1.01);
+      transition: all 0.5s ease;
+    }
+    .chemistryWorld1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -20px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+  }
+  @media  (max-width:350px){
+  
+    .moreReach{
+      margin-top: -5rem;
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    .carousel img{
+      height: 200px;
+      object-fit: cover;
+      width: 200px;
+      /* width: calc(100%/3); */
+    }
+    .gargClasses1{
+      position: absolute;
+      top: -10px;
+      left: 0;
+      opacity: 0;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .bhautiki-1-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -5px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .bhautiki-2-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -10px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .bhautiki-3-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -20px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .cvalley1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -15px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .gwaliorDiaries-1-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -15px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+    .gwaliorDiaries-2-1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -10px;
+      transform: scale(1.01);
+      transition: all 0.5s ease;
+    }
+    .chemistryWorld1{
+      position: absolute;
+     
+      left: 0;
+      opacity: 0;
+      top: -20px;
+      transform: scale(1.02);
+      transition: all 0.5s ease;
+    }
+  }
+  
+  
+
   
 
  
