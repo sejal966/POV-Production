@@ -2867,9 +2867,9 @@ body{
     /* transform: translateY(-600%); */
   }
 
-  .slide-button:hover{
+/*   .slide-button:hover{
     background: rgb(186, 182, 182);
-  }
+  } */
     
    .carousel img{
     height: 400px;
